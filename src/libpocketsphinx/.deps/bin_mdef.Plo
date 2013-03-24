@@ -1,106 +1,106 @@
-bin_mdef.lo: bin_mdef.c \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
- /opt/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
- /opt/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/prim_type.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinx_config.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/ckd_alloc.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/sphinxbase_export.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/byteorder.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/case.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/err.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
- /opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
- mdef.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/hash_table.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/glist.h \
- bin_mdef.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/mmio.h \
- /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/cmd_ln.h \
- ../../include/pocketsphinx_export.h
+bin_mdef.lo bin_mdef.o: bin_mdef.c \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/arm-2007q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/gconv.h \
+  /opt/arm-2007q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stdarg.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/prim_type.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinx_config.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/ckd_alloc.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/sphinxbase_export.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/byteorder.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/case.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/err.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+  /opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+  mdef.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/hash_table.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/glist.h \
+  bin_mdef.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/mmio.h \
+  /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/cmd_ln.h \
+  ../../include/pocketsphinx_export.h
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
 
-/opt/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stddef.h:
+/opt/arm-2007q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stddef.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
 
-/opt/arm-2012.03/bin/../lib/gcc/arm-none-linux-gnueabi/4.6.3/include/stdarg.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/gconv.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+/opt/arm-2007q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.2.1/include/stdarg.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h:
 
 /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/prim_type.h:
 
@@ -108,37 +108,31 @@ bin_mdef.lo: bin_mdef.c \
 
 /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/ckd_alloc.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
-
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
-
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h:
-
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h:
 
 /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/sphinxbase_export.h:
 
@@ -148,17 +142,17 @@ bin_mdef.lo: bin_mdef.c \
 
 /home/simon/SVN/pocketsphinx-0.8/../sphinxbase-0.8/include/sphinxbase/err.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
 
-/opt/arm-2012.03/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+/opt/arm-2007q3/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
 
 mdef.h:
 

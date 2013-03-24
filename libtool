@@ -80,7 +80,7 @@ EGREP="/bin/grep -E"
 FGREP="/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
-NM="/opt/arm-2012.03/bin/arm-none-linux-gnueabi-nm -B"
+NM="/opt/arm-2007q3/bin/arm-none-linux-gnueabi-nm -B"
 
 # Whether we need soft or hard links.
 LN_S="ln -s"
@@ -234,7 +234,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/opt/arm-2012.03/lib/gcc/arm-none-linux-gnueabi/4.6.3 /opt/arm-2012.03/lib/gcc /opt/arm-2012.03/arm-none-linux-gnueabi/lib /opt/arm-2012.03/arm-none-linux-gnueabi/libc/lib /opt/arm-2012.03/arm-none-linux-gnueabi/libc/usr/lib"
+sys_lib_search_path_spec="/opt/arm-2007q3/lib/gcc/arm-none-linux-gnueabi/4.2.1 /opt/arm-2007q3/lib/gcc /opt/arm-2007q3/arm-none-linux-gnueabi/lib /opt/arm-2007q3/arm-none-linux-gnueabi/libc/lib /opt/arm-2007q3/arm-none-linux-gnueabi/libc/usr/lib"
 
 # Run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib/nvidia-current /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib /usr/lib/nvidia-settings "
@@ -254,7 +254,7 @@ striplib="arm-none-linux-gnueabi-strip --strip-unneeded"
 
 
 # The linker used to build libraries.
-LD="/opt/arm-2012.03/arm-none-linux-gnueabi/bin/ld"
+LD="/opt/arm-2007q3/arm-none-linux-gnueabi/bin/ld"
 
 # Commands used to build an old-style archive.
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$oldlib"
