@@ -28,7 +28,6 @@ uname -v = #55-Ubuntu SMP Wed Dec 5 17:45:18 UTC 2012
 /bin/universe          = unknown
 
 PATH: /opt/arm-2007q3/bin
-PATH: /home/simon/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin

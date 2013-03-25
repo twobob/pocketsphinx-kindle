@@ -255,7 +255,7 @@ recognize_from_microphone()
 
     for (;;) {
         /* Indicate listening for next utterance */
-        printf("READY....\n");
+   /*     printf("READY....\n");  */
         fflush(stdout);
         fflush(stderr);
 
@@ -273,7 +273,7 @@ recognize_from_microphone()
         if (ps_start_utt(ps, NULL) < 0)
             E_FATAL("Failed to start utterance\n");
         ps_process_raw(ps, adbuf, k, FALSE, FALSE);
-        printf("Listening...\n");
+     /*   printf("Listening...\n");  */
         fflush(stdout);
 
         /* Note timestamp for this first block of data */
@@ -315,7 +315,7 @@ recognize_from_microphone()
         while (ad_read(ad, adbuf, 4096) >= 0);
         cont_ad_reset(cont);
 
-        printf("Stopped listening, please wait...\n");
+ /*     printf("Stopped listening, please wait...\n");  */
         fflush(stdout);
         /* Finish decoding, obtain and print result */
         ps_end_utt(ps);
