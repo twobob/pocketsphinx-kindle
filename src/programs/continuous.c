@@ -149,9 +149,10 @@ recognize_from_file() {
     if ((cont = cont_ad_init(&file_ad, ad_file_read)) == NULL) {
         E_FATAL("Failed to initialize voice activity detection");
     }
-    if (cont_ad_calib(cont) < 0)
+  /*  if (cont_ad_calib(cont) < 0)
         E_FATAL("Failed to calibrate voice activity detection\n");
-    rewind (rawfd);
+  */   
+     rewind (rawfd);
 
     for (;;) {
 
@@ -255,9 +256,10 @@ recognize_from_microphone()
         E_FATAL("Failed to initialize voice activity detection\n");
     if (ad_start_rec(ad) < 0)
         E_FATAL("Failed to start recording\n");
-    if (cont_ad_calib(cont) < 0)
+  
+/*  if (cont_ad_calib(cont) < 0)
         E_FATAL("Failed to calibrate voice activity detection\n");
-
+*/
  printf("READY\n");  
         fflush(stdout);
         fflush(stderr);
