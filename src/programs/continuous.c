@@ -196,7 +196,12 @@ recognize_from_file() {
 	    print_word_times(start);
 	} else {
 	    hyp = ps_get_hyp(ps, NULL, &uttid);
-            printf("%s: %s\n", uttid, hyp);
+         /*  Ditch the prefix...
+            printf("%s: %s\n", uttid, hyp);   */
+
+
+  				printf("%s\n", hyp);            
+            
         }
         fflush(stdout);	
     }
@@ -253,9 +258,14 @@ recognize_from_microphone()
     if (cont_ad_calib(cont) < 0)
         E_FATAL("Failed to calibrate voice activity detection\n");
 
+ printf("READY\n");  
+        fflush(stdout);
+        fflush(stderr);
+
+
     for (;;) {
-        /* Indicate listening for next utterance */
-   /*     printf("READY....\n");  */
+        /* Indicate listening for next utterance 
+       printf("READY....\n");  */
         fflush(stdout);
         fflush(stderr);
 
@@ -273,8 +283,8 @@ recognize_from_microphone()
         if (ps_start_utt(ps, NULL) < 0)
             E_FATAL("Failed to start utterance\n");
         ps_process_raw(ps, adbuf, k, FALSE, FALSE);
-     /*   printf("Listening...\n");  */
-        fflush(stdout);
+      /*  printf("Listening\n"); 
+        fflush(stdout);  */
 
         /* Note timestamp for this first block of data */
         ts = cont->read_ts;
@@ -320,7 +330,12 @@ recognize_from_microphone()
         /* Finish decoding, obtain and print result */
         ps_end_utt(ps);
         hyp = ps_get_hyp(ps, NULL, &uttid);
+
+/* --- Ditch the prefix    
         printf("%s: %s\n", uttid, hyp);
+*/
+      printf("%s\n", hyp);
+
         fflush(stdout);
 
         /* Exit if the first word spoken was GOODBYE */

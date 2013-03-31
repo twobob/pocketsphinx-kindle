@@ -1,4 +1,4 @@
-prefix=/mnt/us/extensions/pocketsphinx/usr/local
+prefix=/mnt/us/extensions/vaguearmv7l
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
